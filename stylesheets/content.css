@@ -28,7 +28,7 @@ font-weight: bold;
 }
 
 body{
-  background: #D62A1E;
+  background: #AA0C01;
 }
 
   /*Основной блок*/
@@ -42,11 +42,22 @@ body{
   z-index: -5;
   }
 
+  /*Горизонтальная линия верх*/
+.mblh{
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 0;
+  background: rgba(241, 233, 225, 0.25);
+  border: none;
+  z-index: -3;
+}
   /*Боковая линия*/
 .mbl{
   position: absolute;
   height: 100%;
-  width: 1px;
+  width: 3px;
   margin-left: 0px;
   margin-top: 0;
   background: rgba(241, 233, 225, 0.25);
@@ -58,7 +69,7 @@ body{
 .mbl2{
 position: absolute;
 height: 100%;
-width: 1px;
+width: 3px;
 margin-left: 1440px;
 margin-top: 0;
 background: rgba(241, 233, 225, 0.25);
