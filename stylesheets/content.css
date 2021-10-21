@@ -25,37 +25,29 @@ src: url("../fonts/HKGrotesk-BoldItalic.woff") format("woff"),
 url("../fonts/HKGrotesk-BoldItalic.ttf") format("ttf");
 font-style: italic;
 font-weight: bold;
+}
 
+body{
+  background: #D62A1E;
+}
 .main{
   width: 1440px;
   height: 100% auto;
   display: block;
-  margin: 0 auto;
+  margin: auto;
   position: relative;
   background: #D62A1E;
-  z-index: -10;
+  z-index: -5;
   }
-
-  /*Блок 1 Красный*/
-.b1r{
-  position: absolute;
-  width: 935px;
-  height: 720px;
-  left: 0px;
-  top: 0px;
-  /*background: yellow;*/
-  border: none;
-  z-index: -4;
-}
 
   /*Блок 1 Белый*/
 .b1w{
-  float: right;
   position: absolute;
   width: 506px;
   height: 720px;
   left: 935px;
   top: 0px;
+  margin: 0 0 0 0;
   background-color: #FCF7F2;
   border: none;
   z-index: -4;
@@ -63,7 +55,7 @@ font-weight: bold;
 
   /*Стрелка вниз*/
 .ar{
-  position: absolute;
+  position: relative;
   width: 64.3px;
   height: 32.15px;
   left: 902.85px;
@@ -73,25 +65,37 @@ font-weight: bold;
 
   /*Блок 1 Линия вертикальная*/
 .b1lv1{
-  position: relative;
+  position: absolute;
   height: 722.7px;
+  width: 1px;
   left: 135px;
+  border: none;
+  margin-top: 0;
+  background: rgba(241, 233, 225, 0.25);
   z-index: -3;
 }
 
   /*Блок 1 Линия вертикальная 2*/
 .b1lv2{
-  position: relative;
+  position: absolute;
   height: 722.7px;
-  left: 609px;
+  width: 1px;
+  left: 606px;
+  border: none;
+  margin-top: 0;
+  background: rgba(241, 233, 225, 0.25);
   z-index: -3;
 }
 
   /*Блок 1 Линия вертикальная 3*/
 .b1lv3{
-  position: relative;
+  position: absolute;
   height: 722.7px;
+  width: 1px;
   left: 835px;
+  border: none;
+  margin-top: 0;
+  background: rgba(241, 233, 225, 0.25);
   z-index: -3;
 }
 
@@ -189,7 +193,7 @@ font-weight: bold;
   /* HK Grotesk */
 .h1{
   position: absolute;
-  left: 128px;
+  left: 126px;
   top: 273px;
   font-family: HK Grotesk;
   font-style: normal;
@@ -203,12 +207,12 @@ font-weight: bold;
   /* Hanken Design Co. */
 .h2{
   position: absolute;
-  left: 131.5px;
+  left: 131px;
   top: 486px;
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: 500;
-  font-size: 58px;
+  font-size: 57.2px;
   line-height: 74px;
   color: #FCF7F2;
   z-index: -1;
@@ -217,7 +221,7 @@ font-weight: bold;
   /* Линия */
 .l1{
   position: absolute;
-  width: 480px;
+  width: 471px;
   height: 4px;
   left: 135.5px;
   top: 611px;
