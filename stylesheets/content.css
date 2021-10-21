@@ -1,0 +1,465 @@
+@font-face {
+font-family: "HK Grotesk";
+src: url("../fonts/HKGrotesk-Bold.woff") format("woff"),
+url("../fonts/HKGrotesk-Bold.ttf") format("ttf");
+font-style: normal;
+font-weight: bold;
+}
+@font-face {
+font-family: "HK Grotesk";
+src: url("../fonts/HKGrotesk-Regular.woff") format("woff"),
+url("../fonts/HKGrotesk-Regular.ttf") format("ttf");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+font-family: "HK Grotesk";
+src: url("../fonts/HKGrotesk-Italic.woff") format("woff"),
+url("../fonts/HKGrotesk-Italic.ttf") format("ttf");
+font-style: italic;
+font-weight: normal;
+}
+@font-face {
+font-family: "HK Grotesk";
+src: url("../fonts/HKGrotesk-BoldItalic.woff") format("woff"),
+url("../fonts/HKGrotesk-BoldItalic.ttf") format("ttf");
+font-style: italic;
+font-weight: bold;
+
+body {
+  font-family: "HK Grotesk", "Arial", sans-serif;
+  width: 1440px;
+  height: 100% auto;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  background: #D62A1E;
+  z-index: -10;
+  }
+
+  /*Блок 1 Красный*/
+.b1r{
+  position: absolute;
+  width: 935px;
+  height: 720px;
+  left: 0px;
+  top: 0px;
+  /*background: yellow;*/
+  border: none;
+  z-index: -4;
+}
+
+  /*Блок 1 Белый*/
+.b1w{
+  float: right;
+  position: absolute;
+  width: 506px;
+  height: 720px;
+  left: 935px;
+  top: 0px;
+  background-color: #FCF7F2;
+  border: none;
+  z-index: -4;
+}
+
+  /*Стрелка вниз*/
+.ar{
+  position: absolute;
+  width: 64.3px;
+  height: 32.15px;
+  left: 902.85px;
+  top: 621px;
+  z-index: -2;
+}
+
+  /*Блок 1 Линия вертикальная*/
+.b1lv1{
+  position: relative;
+  height: 722.7px;
+  left: 135px;
+  z-index: -3;
+}
+
+  /*Блок 1 Линия вертикальная 2*/
+.b1lv2{
+  position: relative;
+  height: 722.7px;
+  left: 609px;
+  z-index: -3;
+}
+
+  /*Блок 1 Линия вертикальная 3*/
+.b1lv3{
+  position: relative;
+  height: 722.7px;
+  left: 835px;
+  z-index: -3;
+}
+
+  /*Блок 1 Линия горизонтальная*/
+.b1lh1{
+  position: absolute;
+  width: 935px;
+  left: 0px;
+  top: 404px;
+  z-index: -3;
+}
+
+  /*Блок 1 Линия горизонтальная 2*/
+.b1lh2{
+  position: absolute;
+  width: 935px;
+  left: 0px;
+  top: 499px;
+  z-index: -3;
+}
+
+  /*Блок 1 Линия горизонтальная 3*/
+.b1lh3{
+  position: absolute;
+  width: 935px;
+  left: 0px;
+  top: 549px;
+  z-index: -3;
+}
+
+  /*Блок 1 Линия горизонтальная 4*/
+.b1lh4{
+  position: absolute;
+  width: 935px;
+  left: 0px;
+  top: 590px;
+  z-index: -3;
+}
+
+  /*Блок 1 Линия горизонтальная 5*/
+.b1lh5{
+  position: absolute;
+  width: 935px;
+  left: 0px;
+  top: 620px;
+  z-index: -3;
+}
+
+  /*Блок 1 Линия горизонтальная красная*/
+.b1lhr1{
+  position: absolute;
+  width: 505px;
+  left: 935px;
+  top: 404px;
+  z-index: -3;
+}
+
+  /*Блок 1 Линия горизонтальная красная 2*/
+.b1lhr2{
+  position: absolute;
+  width: 505px;
+  left: 935px;
+  top: 499px;
+  z-index: -3;
+}
+
+  /*Блок 1 Линия горизонтальная красная 3*/
+.b1lhr3{
+  position: absolute;
+  width: 505px;
+  left: 935px;
+  top: 549px;
+  z-index: -3;
+}
+
+  /*Блок 1 Линия горизонтальная красная 4*/
+.b1lhr4{
+  position: absolute;
+  width: 505px;
+  left: 935px;
+  top: 590px;
+  z-index: -3;
+}
+
+  /*Блок 1 Линия горизонтальная красная 5*/
+.b1lhr5{
+  position: absolute;
+  width: 505px;
+  left: 935px;
+  top: 620px;
+  z-index: -3;
+}
+
+
+  /* HK Grotesk */
+.h1{
+  position: absolute;
+  left: 128px;
+  top: 273px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 135px;
+  line-height: 178px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+  /* Hanken Design Co. */
+.h2{
+  position: absolute;
+  left: 131.5px;
+  top: 486px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 74px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+  /* Линия */
+.l1{
+  position: absolute;
+  width: 480px;
+  height: 4px;
+  left: 135.5px;
+  top: 611px;
+  background: #FCF7F2;
+  border: none;
+  z-index: -1;
+}
+
+  /*Граничная линия 1-2*/
+.bl1{
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 718.5px;
+  z-index: -3;
+}
+
+
+  /*Блок 2*/
+
+  /*Блок 2 Линия вертикальная*/
+.b2lv1{
+  position: relative;
+  height: 404px;
+  left: 135px;
+  top: -6px;
+  z-index: -3;
+}
+
+/*Блок 2 Линия вертикальная 2*/
+.b2lv2{
+position: relative;
+height: 404px;
+left: 525px;
+top: -6px;
+z-index: -3;
+}
+
+/*Блок 2 Линия вертикальная 3*/
+.b2lv3{
+position: relative;
+height: 404px;
+left: 602px;
+top: -6px;
+z-index: -3;
+}
+
+/*Блок 2 Линия вертикальная 4*/
+.b2lv4{
+position: relative;
+height: 404px;
+left: 1291px;
+top: -6px;
+z-index: -3;
+}
+
+  /*Блок 2 Линия горизонтальная*/
+.b2lh1{
+  position: absolute;
+  width: 1440px;
+  left: 0px;
+  top: 800px;
+  z-index: -3;
+}
+
+  /*Блок 2 Линия горизонтальная*/
+.b2lh2{
+  position: absolute;
+  width: 1440px;
+  left: 0px;
+  top: 1043px;
+  z-index: -3;
+}
+
+  /*Блок 2 Текст*/
+.b2t1{
+  position: absolute;
+  width: 370px;
+  height: 234px;
+  left: 145px;
+  top: 788px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FCF7F2;
+}
+
+  /*Sans-Serif typeface*/
+.sst{
+position: absolute;
+width: 696px;
+height: 87px;
+left: 615px;
+top: 969.5px;
+z-index: -2;
+}
+
+  /*Граничная линия 2-3*/
+.bl2{
+position: absolute;
+width: 100%;
+left: 0px;
+top: 1123px;
+z-index: -3;
+}
+
+
+  /*Блок 3*/
+
+  /*Блок 3 Линия вертикальная*/
+.b3lv1{
+position: relative;
+height: 552px;
+left: 135px;
+top: -12px;
+z-index: -3;
+}
+
+  /*Блок 3 Линия вертикальная 2*/
+.b3lv2{
+position: relative;
+height: 552px;
+left: 1302.5px;
+top: -12px;
+z-index: -3;
+}
+
+/*Блок 3 композиция*/
+.b3c1{
+position: absolute;
+width: 1175px;
+height: 550.34px;
+left: 136px;
+top: 1125px;
+z-index: -2;
+}
+
+  /*Граничная линия 3-4*/
+.bl3{
+position: absolute;
+width: 100%;
+left: 0px;
+top: 1673.5px;
+z-index: -3;
+}
+
+
+/*Блок 4*/
+
+/*Граничная линия 3-4 (1)*/
+.bl4{
+position: absolute;
+width: 100%;
+left: 0px;
+top: 1733.5px;
+z-index: -3;
+}
+
+/*Блок 4 Белый*/
+.b4w{
+  float: left;
+  position: absolute;
+  width: 804px;
+  height: 292px;
+  left: 0px;
+  top: 1736px;
+  background: #FCF7F2;
+  border: none;
+  z-index: -4;
+}
+
+/*Блок 4 Красный*/
+  .b4r{
+  position: absolute;
+  float: right;
+  width: 636px;
+  height: 292px;
+  left: 804px;
+  top: 1736px;
+  /*background: yellow;*/
+  border: none;
+  z-index: -4;
+}
+
+/* Линия 1! */
+.l2{
+  position: relative;
+  width: 805px;
+  height: 1px;
+  top: 40px;
+  left: 0px;
+  background: rgba(214, 42, 30, 0.35);
+  border: none;
+  z-index: -1;
+}
+
+/* Линия 2! */
+.l3{
+  position: relative;
+  width: 805px;
+  height: 1px;
+  top: 252px;
+  left: 0px;
+  background: rgba(214, 42, 30, 0.35);
+  border: none;
+  z-index: -1;
+}
+
+/* Линия v1! */
+.lv1{
+  position: absolute;
+  margin-top: 0;
+  width: 1px;
+  height: 293px;
+  top: 0px;
+  left: 135px;
+  background: rgba(214, 42, 30, 0.35);
+  border: none;
+  z-index: -1;
+}
+
+/* Линия v2! */
+.lv2{
+  position: absolute;
+  margin-top: 0;
+  width: 1px;
+  height: 293px;
+  top: 0px;
+  right: 40px;
+  background: rgba(214, 42, 30, 0.35);
+  border: none;
+  z-index: -1;
+}
+
+.pstr1{
+  position: absolute;
+  width: 148px;
+  height: 212px;
+  left: 135px;
+  top: 40px;
+  z-index: -2;
+}

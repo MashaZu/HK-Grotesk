@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>HK Grotesk</title>
+  <link href="E:\Маша\ВШЭ\1 курс\Основы веб-вёрстки и создания сайтов\HK Grotesk\stylesheets\style.css" rel="stylesheet" type="text/css"/>
+  <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      $(function() {
+        $('.sidebar a').each(function() {
+          $(this).on('click', function(e) {
+            e.preventDefault();
+            var scrollTo = $(this).attr('href');
+            var whitespace = scrollTo == '#s1' ? 70 : 30;
+            $('html,body').animate({
+              scrollTop: $(scrollTo).offset().top - whitespace
+            }, 1000);
+          });
+        });
+      });
+    </script>
+</head>
+<body>
+
+<div>
+  <div class="b1r"></div>
+  <div class="b1w"></div>
+  <img class="ar" src="img/Arrow.svg" alt="">
+  <img class="b1lv1" src="img/Line1.svg" alt="">
+  <img class="b1lv2" src="img/Line1.svg" alt="">
+  <img class="b1lv3" src="img/Line1.svg" alt="">
+  <img class="b1lh1" src="img/Line2.svg" alt="">
+  <img class="b1lh2" src="img/Line2.svg" alt="">
+  <img class="b1lh3" src="img/Line2.svg" alt="">
+  <img class="b1lh4" src="img/Line2.svg" alt="">
+  <img class="b1lh5" src="img/Line2.svg" alt="">
+  <img class="b1lhr1" src="img/Line3.svg" alt="">
+  <img class="b1lhr2" src="img/Line3.svg" alt="">
+  <img class="b1lhr3" src="img/Line3.svg" alt="">
+  <img class="b1lhr4" src="img/Line3.svg" alt="">
+  <img class="b1lhr5" src="img/Line3.svg" alt="">
+  <h1 class="h1">HK Grotesk</h1>
+  <h2 class="h2">Hanken Design Co.</h2>
+  <hr class="l1">
+  <img class="bl1" src="img/BoldLine.svg" alt="">
+</div>
+<div>
+  <img class="b2lv1" src="img/Line21.svg" alt="">
+  <img class="b2lv2" src="img/Line21.svg" alt="">
+  <img class="b2lv3" src="img/Line21.svg" alt="">
+  <img class="b2lv4" src="img/Line21.svg" alt="">
+  <img class="b2lh1" src="img/Line22.svg" alt="">
+  <img class="b2lh2" src="img/Line22.svg" alt="">
+  <p class="b2t1">HK Grotesk — это шрифт без засечек, вдохновленный классическими гротесками.<br><br>Он был разработан Hanken Design Co. с целью создания дружественного <br>и удобочитаемого шрифта, который подходил бы для текста с неболь-<br>шим кеглем.</p>
+  <img class="sst" src="img/Sans-Serif.svg" alt="">
+  <img class="bl2" src="img/BoldLine.svg" alt="">
+</div>
+<div>
+  <img class="b3lv1" src="img/Line21.svg" alt="">
+  <img class="b3lv2" src="img/Line21.svg" alt="">
+  <img class="b3c1" src="img/Composition1.svg" alt="">
+  <img class="bl3" src="img/BoldLine.svg" alt="">
+</div>
+<div>
+  <img class="bl4" src="img/BoldLine.svg" alt="">
+  <div class="b4w">
+    <hr class="l2">
+    <hr class="l3">
+    <hr class="lv1">
+    <hr class="lv2">
+    <img class="pstr1" src="img/Poster1.svg" alt="">
+  </div>
+  <div class="b4r"></div>
+</div>
+</body>
+</html>
