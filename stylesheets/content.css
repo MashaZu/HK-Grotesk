@@ -26,8 +26,7 @@ url("../fonts/HKGrotesk-BoldItalic.ttf") format("ttf");
 font-style: italic;
 font-weight: bold;
 
-body {
-  font-family: "HK Grotesk", "Arial", sans-serif;
+.main{
   width: 1440px;
   height: 100% auto;
   display: block;
