@@ -1139,3 +1139,255 @@ z-index: -3;
   color: #FCF7F2;
   z-index: -1;
 }
+
+  /*Блок 5 Линия вертикальная*/
+.b5lv1{
+  position: absolute;
+  height: 840px;
+  width: 1px;
+  left: 135px;
+  border: none;
+  margin-top: 0;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия вертикальная 2*/
+.b5lv2{
+  position: absolute;
+  height: 840px;
+  width: 1px;
+  left: 405px;
+  border: none;
+  margin-top: 0;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия вертикальная 3*/
+.b5lv3{
+  position: absolute;
+  height: 840px;
+  width: 1px;
+  left: 435px;
+  border: none;
+  margin-top: 0;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия вертикальная 4*/
+.b5lv4{
+  position: absolute;
+  height: 840px;
+  width: 1px;
+  left: 705px;
+  border: none;
+  margin-top: 0;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия вертикальная 5*/
+.b5lv5{
+  position: absolute;
+  height: 840px;
+  width: 1px;
+  left: 735px;
+  border: none;
+  margin-top: 0;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия вертикальная 6*/
+.b5lv6{
+  position: absolute;
+  height: 840px;
+  width: 1px;
+  left: 1005px;
+  border: none;
+  margin-top: 0;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия вертикальная 7*/
+.b5lv7{
+  position: absolute;
+  height: 840px;
+  width: 1px;
+  left: 1035px;
+  border: none;
+  margin-top: 0;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия вертикальная 8*/
+.b5lv8{
+  position: absolute;
+  height: 840px;
+  width: 1px;
+  left: 1305px;
+  border: none;
+  margin-top: 0;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия горизонтальная*/
+.b5lh1{
+  position: absolute;
+  height: 1px;
+  width: 1440px;
+  left: 0px;
+  border: none;
+  margin-top: 122px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия горизонтальная 2*/
+.b5lh2{
+  position: absolute;
+  height: 1px;
+  width: 1440px;
+  left: 0px;
+  border: none;
+  margin-top: 147px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия горизонтальная 3*/
+.b5lh3{
+  position: absolute;
+  height: 1px;
+  width: 1440px;
+  left: 0px;
+  border: none;
+  margin-top: 258px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия горизонтальная 4*/
+.b5lh4{
+  position: absolute;
+  height: 1px;
+  width: 1440px;
+  left: 0px;
+  border: none;
+  margin-top: 301px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия горизонтальная 5*/
+.b5lh5{
+  position: absolute;
+  height: 1px;
+  width: 1440px;
+  left: 0px;
+  border: none;
+  margin-top: 321px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия горизонтальная 6*/
+.b5lh6{
+  position: absolute;
+  height: 1px;
+  width: 1440px;
+  left: 0px;
+  border: none;
+  margin-top: 391px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия горизонтальная 7*/
+.b5lh7{
+  position: absolute;
+  height: 1px;
+  width: 1440px;
+  left: 0px;
+  border: none;
+  margin-top: 493px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия горизонтальная 8*/
+.b5lh8{
+  position: absolute;
+  height: 1px;
+  width: 1440px;
+  left: 0px;
+  border: none;
+  margin-top: 518px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия горизонтальная 9*/
+.b5lh9{
+  position: absolute;
+  height: 1px;
+  width: 1440px;
+  left: 0px;
+  border: none;
+  margin-top: 628px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия горизонтальная 10*/
+.b5lh10{
+  position: absolute;
+  height: 1px;
+  width: 1440px;
+  left: 0px;
+  border: none;
+  margin-top: 670px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия горизонтальная 11*/
+.b5lh11{
+  position: absolute;
+  height: 1px;
+  width: 1440px;
+  left: 0px;
+  border: none;
+  margin-top: 690px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5 Линия горизонтальная 12*/
+.b5lh12{
+  position: absolute;
+  height: 1px;
+  width: 1440px;
+  left: 0px;
+  border: none;
+  margin-top: 760px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+/*Граничная линия 5-6*/
+.bl6{
+position: absolute;
+height: 3px;
+width: 100%;
+left: 0px;
+border: none;
+margin-top: 840px;
+background: rgba(241, 233, 225, 0.25);
+z-index: -3;
+}
