@@ -42,6 +42,30 @@ body{
   z-index: -5;
   }
 
+  /*Боковая линия*/
+.mbl{
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  margin-left: 0px;
+  margin-top: 0;
+  background: rgba(241, 233, 225, 0.25);
+  border: none;
+  z-index: -3;
+}
+
+/*Боковая линия 2*/
+.mbl2{
+position: absolute;
+height: 100%;
+width: 1px;
+margin-left: 1440px;
+margin-top: 0;
+background: rgba(241, 233, 225, 0.25);
+border: none;
+z-index: -3;
+}
+
   /*Блок 1*/
 .b1{
   position: relative;
@@ -400,7 +424,7 @@ body{
 
 
   /*Блок 3*/
-.b2{
+.b3{
   position: relative;
   height: 548px;
   z-index: -4;
@@ -409,63 +433,76 @@ body{
   /*Блок 3 Линия вертикальная*/
 .b3lv1{
   position: absolute;
-  height: 548px;
+  height: 543px;
   width: 1px;
   left: 135px;
   border: none;
-  margin-top: 0;
+  margin-top: 3px;
   background: rgba(241, 233, 225, 0.25);
   z-index: -3;
 }
 
   /*Блок 3 Линия вертикальная 2*/
 .b3lv2{
-position: relative;
-height: 552px;
-left: 1302.5px;
-top: -12px;
-z-index: -3;
+  position: absolute;
+  height: 543px;
+  width: 1px;
+  left: 1291px;
+  border: none;
+  margin-top: 3px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
 }
 
 /*Блок 3 композиция*/
 .b3c1{
 position: absolute;
-width: 1175px;
-height: 550.34px;
+width: 1155px;
+height: 541px;
 left: 136px;
-top: 1125px;
+margin-top: 4px;
 z-index: -2;
 }
 
   /*Граничная линия 3-4*/
 .bl3{
-position: absolute;
-width: 100%;
-left: 0px;
-top: 1673.5px;
-z-index: -3;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  left: 0px;
+  border: none;
+  margin-top: 544px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
 }
 
 
-/*Блок 4*/
+  /*Блок 4*/
+.b4{
+  position: relative;
+  height: 292px;
+  margin-top: 60px;
+  z-index: -4;
+}
 
 /*Граничная линия 3-4 (1)*/
 .bl4{
-position: absolute;
-width: 100%;
-left: 0px;
-top: 1733.5px;
-z-index: -3;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  left: 0px;
+  border: none;
+  margin-top: 0px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
 }
 
 /*Блок 4 Белый*/
 .b4w{
-  float: left;
   position: absolute;
   width: 804px;
   height: 292px;
-  left: 0px;
-  top: 1736px;
+  margin: 1.5px auto auto 0;
   background: #FCF7F2;
   border: none;
   z-index: -4;
@@ -474,71 +511,631 @@ z-index: -3;
 /*Блок 4 Красный*/
   .b4r{
   position: absolute;
-  float: right;
   width: 636px;
   height: 292px;
-  left: 804px;
-  top: 1736px;
-  /*background: yellow;*/
+  margin: 0 auto auto 804px;
+  background: #D62A1E;
   border: none;
   z-index: -4;
 }
 
-/* Линия 1! */
-.l2{
-  position: relative;
-  width: 805px;
-  height: 1px;
-  top: 40px;
-  left: 0px;
-  background: rgba(214, 42, 30, 0.35);
-  border: none;
-  z-index: -1;
-}
-
-/* Линия 2! */
-.l3{
-  position: relative;
-  width: 805px;
-  height: 1px;
-  top: 252px;
-  left: 0px;
-  background: rgba(214, 42, 30, 0.35);
-  border: none;
-  z-index: -1;
-}
-
-/* Линия v1! */
-.lv1{
+  /*Блок 4 Линия вертикальная красная*/
+.b4lvr1{
   position: absolute;
-  margin-top: 0;
+  height: 292px;
   width: 1px;
-  height: 293px;
-  top: 0px;
   left: 135px;
-  background: rgba(214, 42, 30, 0.35);
   border: none;
-  z-index: -1;
+  margin-top: 0;
+  background: rgba(214, 42, 30, 0.35);
+  z-index: -3;
 }
 
-/* Линия v2! */
-.lv2{
+  /*Блок 4 Линия вертикальная красная 2*/
+.b4lvr2{
+position: absolute;
+height: 292px;
+width: 1px;
+left: 764px;
+border: none;
+margin-top: 0;
+background: rgba(214, 42, 30, 0.35);
+z-index: -3;
+}
+
+  /*Блок 4 Линия горизонтальная красная*/
+.b4lhr1{
   position: absolute;
-  margin-top: 0;
-  width: 1px;
-  height: 293px;
-  top: 0px;
-  right: 40px;
-  background: rgba(214, 42, 30, 0.35);
+  height: 1px;
+  width: 805px;
+  left: 0px;
   border: none;
-  z-index: -1;
+  margin-top: 40px;
+  background: rgba(214, 42, 30, 0.35);
+  z-index: -3;
+}
+
+  /*Блок 4 Линия горизонтальная красная 2*/
+.b4lhr2{
+  position: absolute;
+  height: 1px;
+  width: 805px;
+  left: 0px;
+  border: none;
+  margin-top: 253px;
+  background: rgba(214, 42, 30, 0.35);
+  z-index: -3;
 }
 
 .pstr1{
   position: absolute;
   width: 148px;
   height: 212px;
-  left: 135px;
-  top: 40px;
+  margin-left: 136px;
+  margin-top: 41px;
   z-index: -2;
+}
+
+.pstr2{
+  position: absolute;
+  width: 166px;
+  height: 212px;
+  margin-left: 294px;
+  margin-top: 41px;
+  z-index: -2;
+}
+
+.pstr3{
+  position: absolute;
+  width: 141px;
+  height: 212px;
+  margin-left: 472px;
+  margin-top: 41px;
+  z-index: -2;
+}
+
+.pstr4{
+  position: absolute;
+  width: 138px;
+  height: 212px;
+  margin-left: 626px;
+  margin-top: 41px;
+  z-index: -2;
+}
+
+  /*Блок 4 Линия вертикальная*/
+.b4lv1{
+  position: absolute;
+  height: 292px;
+  width: 1px;
+  margin-left: 40px;
+  margin-top: 0;
+  background: rgba(241, 233, 225, 0.25);
+  border: none;
+  z-index: -3;
+}
+
+  /*Блок 4 Линия вертикальная 2*/
+.b4lv2{
+  position: absolute;
+  height: 292px;
+  width: 1px;
+  margin-left: 501px;
+  margin-top: 0;
+  background: rgba(241, 233, 225, 0.25);
+  border: none;
+  z-index: -3;
+}
+
+  /*Блок 4 Линия горизонтальная*/
+.b4lh1{
+  position: absolute;
+  height: 1px;
+  width: 636px;
+  margin-left: 0px;
+  margin-top: 40px;
+  background: rgba(241, 233, 225, 0.25);
+  border: none;
+  z-index: -3;
+}
+
+  /*Блок 4 Линия горизонтальная 2*/
+.b4lh2{
+  position: absolute;
+  height: 1px;
+  width: 636px;
+  margin-left: 0px;
+  margin-top: 154px;
+  background: rgba(241, 233, 225, 0.25);
+  border: none;
+  z-index: -3;
+}
+
+  /*Блок 4 Текст*/
+.b4t1{
+  position: absolute;
+  width: 441px;
+  height: 104px;
+  margin-left: 50px;
+  margin-top: 45px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FCF7F2;
+}
+
+  /*Граничная линия 4-5*/
+.bl5{
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  left: 0px;
+  border: none;
+  margin-top: 292px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: -3;
+}
+
+  /*Блок 5*/
+.b5{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  height: 840px;
+  margin-top: 2px;
+  z-index: -4;
+}
+
+  /*Блок 5 Колонка 1*/
+.b5clmn1{
+  position: absolute;
+  width: 270px;
+  height: 840px;
+  margin-left: 135px;
+  /*background: yellow;*/
+}
+
+/*Блок 5 Колонка 2*/
+.b5clmn2{
+  position: absolute;
+  width: 270px;
+  height: 840px;
+  margin-left: 435px;
+  /*background: blue;*/
+}
+
+/*Блок 5 Колонка 3*/
+.b5clmn3{
+  position: absolute;
+  width: 270px;
+  height: 840px;
+  margin-left: 735px;
+  /*background: black;*/
+}
+
+/*Блок 5 Колонка 4*/
+.b5clmn4{
+  position: absolute;
+  width: 270px;
+  height: 840px;
+  margin-left: 1035px;
+  /*background: orange;*/
+}
+
+/*Блок 5 Thin*/
+.z1{
+  position: absolute;
+  margin-top: 80px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 42px;
+  line-height: 54.73px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Thin текст*/
+.tz1{
+  position: absolute;
+  margin-top: 147px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 26.06px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Thin italic*/
+.z1i{
+  position: absolute;
+  margin-top: 269px;
+  font-family: HK Grotesk;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 32px;
+  line-height: 41.7px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Thin italic текст*/
+.tz1i{
+  position: absolute;
+  margin-top: 321px;
+  font-family: HK Grotesk;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 20.85px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 SemiBold*/
+.z2{
+  position: absolute;
+  margin-top: 451px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 54.73px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Semibold текст*/
+.tz2{
+  position: absolute;
+  margin-top: 518px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26.06px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 SemiBold italic*/
+.z2i{
+  position: absolute;
+  margin-top: 638px;
+  font-family: HK Grotesk;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 41.7px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Semibold italic текст*/
+.tz2i{
+  position: absolute;
+  margin-top: 691px;
+  font-family: HK Grotesk;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20.85px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Light*/
+.z3{
+  position: absolute;
+  margin-top: 80px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 54.73px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Light текст*/
+.tz3{
+  position: absolute;
+  margin-top: 147px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26.06px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Light italic*/
+.z3i{
+  position: absolute;
+  margin-top: 269px;
+  font-family: HK Grotesk;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 41.7px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Light italic текст*/
+.tz3i{
+  position: absolute;
+  margin-top: 321px;
+  font-family: HK Grotesk;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20.85px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Bold*/
+.z4{
+  position: absolute;
+  margin-top: 451px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 54.73px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Bold текст*/
+.tz4{
+  position: absolute;
+  margin-top: 518px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26.06px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Bold italic*/
+.z4i{
+  position: absolute;
+  margin-top: 638px;
+  font-family: HK Grotesk;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41.7px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Bold italic текст*/
+.tz4i{
+  position: absolute;
+  margin-top: 691px;
+  font-family: HK Grotesk;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20.85px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Regular*/
+.z5{
+  position: absolute;
+  margin-top: 80px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 54.73px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Regular текст*/
+.tz5{
+  position: absolute;
+  margin-top: 147px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26.06px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Regular italic*/
+.z5i{
+  position: absolute;
+  margin-top: 269px;
+  font-family: HK Grotesk;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41.7px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Regular italic текст*/
+.tz5i{
+  position: absolute;
+  margin-top: 321px;
+  font-family: HK Grotesk;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.85px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 ExtraBold*/
+.z6{
+  position: absolute;
+  margin-top: 451px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 54.73px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 ExtraBold текст*/
+.tz6{
+  position: absolute;
+  margin-top: 518px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 26.06px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 ExtraBold italic*/
+.z6i{
+  position: absolute;
+  margin-top: 638px;
+  font-family: HK Grotesk;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 41.7px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 ExtraBold italic текст*/
+.tz6i{
+  position: absolute;
+  margin-top: 691px;
+  font-family: HK Grotesk;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20.85px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Medium*/
+.z7{
+  position: absolute;
+  margin-top: 80px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 54.73px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Medium текст*/
+.tz7{
+  position: absolute;
+  margin-top: 147px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26.06px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Medium italic*/
+.z7i{
+  position: absolute;
+  margin-top: 269px;
+  font-family: HK Grotesk;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 41.7px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Medium italic текст*/
+.tz7i{
+  position: absolute;
+  margin-top: 321px;
+  font-family: HK Grotesk;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20.85px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Black*/
+.z8{
+  position: absolute;
+  margin-top: 451px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 42px;
+  line-height: 54.73px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Black текст*/
+.tz8{
+  position: absolute;
+  margin-top: 518px;
+  font-family: HK Grotesk;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 26.06px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Black italic*/
+.z8i{
+  position: absolute;
+  margin-top: 638px;
+  font-family: HK Grotesk;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 41.7px;
+  color: #FCF7F2;
+  z-index: -1;
+}
+
+/*Блок 5 Black italic текст*/
+.tz8i{
+  position: absolute;
+  margin-top: 691px;
+  font-family: HK Grotesk;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20.85px;
+  color: #FCF7F2;
+  z-index: -1;
 }
