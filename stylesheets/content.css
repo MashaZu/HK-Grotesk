@@ -37,7 +37,8 @@ body{
   width: 1440px;
   height: 100% auto;
   display: block;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto
   position: relative;
   background: #D62A1E;
   z-index: 1;
