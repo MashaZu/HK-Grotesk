@@ -67,16 +67,16 @@ body{
   z-index: 3;
 }
 
-/*Боковая линия 2*/
+  /*Боковая линия 2*/
 .mbl2{
-position: absolute;
-height: 100%;
-width: 3px;
-margin-left: 1438px;
-margin-top: 0;
-background: rgba(241, 233, 225, 0.25);
-border: none;
-z-index: 3;
+  position: absolute;
+  height: 100%;
+  width: 3px;
+  margin-left: 1438px;
+  margin-top: 0;
+  background: rgba(241, 233, 225, 0.25);
+  border: none;
+  z-index: 3;
 }
 
   /*Блок 1*/
@@ -91,8 +91,8 @@ z-index: 3;
   position: absolute;
   width: 506px;
   height: 720px;
-  left: 935px;
-  top: 0px;
+  margin-left: 935px;
+  margin-top: 0px;
   margin: 0 0 0 0;
   background-color: #FCF7F2;
   border: none;
@@ -104,8 +104,8 @@ z-index: 3;
   position: relative;
   width: 64.3px;
   height: 32.15px;
-  left: 902.85px;
-  top: 621px;
+  margin-left: 902.85px;
+  margin-top: 621px;
   z-index: 4;
 }
 
@@ -114,7 +114,7 @@ z-index: 3;
   position: absolute;
   height: 721px;
   width: 1px;
-  left: 135px;
+  margin-left: 135px;
   border: none;
   margin-top: 0;
   background: rgba(241, 233, 225, 0.25);
@@ -126,7 +126,7 @@ z-index: 3;
   position: absolute;
   height: 721px;
   width: 1px;
-  left: 606px;
+  margin-left: 606px;
   border: none;
   margin-top: 0;
   background: rgba(241, 233, 225, 0.25);
@@ -138,7 +138,7 @@ z-index: 3;
   position: absolute;
   height: 721px;
   width: 1px;
-  left: 835px;
+  margin-left: 835px;
   border: none;
   margin-top: 0;
   background: rgba(241, 233, 225, 0.25);
@@ -150,7 +150,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 935px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 407px;
   background: rgba(241, 233, 225, 0.25);
@@ -162,7 +162,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 935px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 499px;
   background: rgba(241, 233, 225, 0.25);
@@ -174,7 +174,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 935px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 550px;
   background: rgba(241, 233, 225, 0.25);
@@ -186,7 +186,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 935px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 590px;
   background: rgba(241, 233, 225, 0.25);
@@ -198,7 +198,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 935px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 621px;
   background: rgba(241, 233, 225, 0.25);
@@ -210,7 +210,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 505px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 407px;
   background: rgba(214, 42, 30, 0.35);
@@ -222,7 +222,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 505px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 499px;
   background: rgba(214, 42, 30, 0.35);
@@ -234,7 +234,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 505px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 550px;
   background: rgba(214, 42, 30, 0.35);
@@ -246,7 +246,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 590px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 590px;
   background: rgba(214, 42, 30, 0.35);
@@ -258,7 +258,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 505px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 621px;
   background: rgba(214, 42, 30, 0.35);
@@ -269,8 +269,8 @@ z-index: 3;
   /* HK Grotesk */
 .h1{
   position: absolute;
-  left: 128px;
-  top: 365px;
+  margin-left: 128px;
+  margin-top: 365px;
   font-family: "HK Grotesk";
   font-style: normal;
   font-weight: 900;
@@ -283,8 +283,8 @@ z-index: 3;
   /* Hanken Design Co. */
 .h2{
   position: absolute;
-  left: 131px;
-  top: 534px;
+  margin-left: 131px;
+  margin-top: 534px;
   font-family: "HK Grotesk";
   font-style: normal;
   font-weight: 500;
@@ -299,8 +299,8 @@ z-index: 3;
   position: absolute;
   width: 471px;
   height: 4px;
-  left: 135.5px;
-  top: 611px;
+  margin-left: 135.5px;
+  margin-top: 611px;
   background: #FCF7F2;
   border: none;
   z-index: 5;
@@ -311,7 +311,7 @@ z-index: 3;
   position: relative;
   height: 3px;
   width: 100%;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 683px;
   background: rgba(241, 233, 225, 0.25);
@@ -331,43 +331,43 @@ z-index: 3;
   position: absolute;
   height: 404px;
   width: 1px;
-  left: 135px;
+  margin-left: 135px;
   border: none;
   margin-top: 0;
   background: rgba(241, 233, 225, 0.25);
   z-index: 3;
 }
 
-/*Блок 2 Линия вертикальная 2*/
+  /*Блок 2 Линия вертикальная 2*/
 .b2lv2{
   position: absolute;
   height: 404px;
   width: 1px;
-  left: 525px;
+  margin-left: 525px;
   border: none;
   margin-top: 0;
   background: rgba(241, 233, 225, 0.25);
   z-index: 3;
 }
 
-/*Блок 2 Линия вертикальная 3*/
+  /*Блок 2 Линия вертикальная 3*/
 .b2lv3{
   position: absolute;
   height: 404px;
   width: 1px;
-  left: 606px;
+  margin-left: 606px;
   border: none;
   margin-top: 0;
   background: rgba(241, 233, 225, 0.25);
   z-index: 3;
 }
 
-/*Блок 2 Линия вертикальная 4*/
+  /*Блок 2 Линия вертикальная 4*/
 .b2lv4{
   position: absolute;
   height: 404px;
   width: 1px;
-  left: 1305px;
+  margin-left: 1305px;
   border: none;
   margin-top: 0;
   background: rgba(241, 233, 225, 0.25);
@@ -379,7 +379,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 100%;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 80px;
   background: rgba(241, 233, 225, 0.25);
@@ -391,7 +391,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 100%;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 323px;
   background: rgba(241, 233, 225, 0.25);
@@ -412,7 +412,7 @@ z-index: 3;
   position: absolute;
   width: 370px;
   height: 234px;
-  left: 145px;
+  margin-left: 145px;
   margin-top: 85px;
   font-family: "HK Grotesk";
   font-style: normal;
@@ -427,7 +427,7 @@ z-index: 3;
   position: absolute;
   width: 699.5px;
   height: 87.4px;
-  left: 606px;
+  margin-left: 606px;
   margin-top: 248px;
   z-index: 4;
 }
@@ -437,7 +437,7 @@ z-index: 3;
   position: absolute;
   height: 3px;
   width: 100%;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 404px;
   background: rgba(241, 233, 225, 0.25);
@@ -457,7 +457,7 @@ z-index: 3;
   position: absolute;
   height: 543px;
   width: 1px;
-  left: 135px;
+  margin-left: 135px;
   border: none;
   margin-top: 3px;
   background: rgba(241, 233, 225, 0.25);
@@ -469,21 +469,21 @@ z-index: 3;
   position: absolute;
   height: 543px;
   width: 1px;
-  left: 1305px;
+  margin-left: 1305px;
   border: none;
   margin-top: 3px;
   background: rgba(241, 233, 225, 0.25);
   z-index: 3;
 }
 
-/*Блок 3 композиция*/
+  /*Блок 3 композиция*/
 .b3c1{
-position: absolute;
-width: 1170px;
-height: 541px;
-left: 136px;
-margin-top: 4px;
-z-index: 4;
+  position: absolute;
+  width: 1170px;
+  height: 541px;
+  margin-left: 136px;
+  margin-top: 4px;
+  z-index: 4;
 }
 
   /*Граничная линия 3-4*/
@@ -491,7 +491,7 @@ z-index: 4;
   position: absolute;
   height: 3px;
   width: 100%;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 544px;
   background: rgba(241, 233, 225, 0.25);
@@ -512,7 +512,7 @@ z-index: 4;
   position: absolute;
   height: 3px;
   width: 100%;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 0px;
   background: rgba(241, 233, 225, 0.25);
@@ -546,7 +546,7 @@ z-index: 4;
   position: absolute;
   height: 292px;
   width: 1px;
-  left: 135px;
+  margin-left: 135px;
   border: none;
   margin-top: 0;
   background: rgba(214, 42, 30, 0.35);
@@ -555,14 +555,14 @@ z-index: 4;
 
   /*Блок 4 Линия вертикальная красная 2*/
 .b4lvr2{
-position: absolute;
-height: 292px;
-width: 1px;
-left: 764px;
-border: none;
-margin-top: 0;
-background: rgba(214, 42, 30, 0.35);
-z-index: 3;
+  position: absolute;
+  height: 292px;
+  width: 1px;
+  margin-left: 764px;
+  border: none;
+  margin-top: 0;
+  background: rgba(214, 42, 30, 0.35);
+  z-index: 3;
 }
 
   /*Блок 4 Линия горизонтальная красная*/
@@ -570,7 +570,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 805px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 40px;
   background: rgba(214, 42, 30, 0.35);
@@ -582,7 +582,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 805px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 253px;
   background: rgba(214, 42, 30, 0.35);
@@ -702,7 +702,7 @@ z-index: 3;
   position: absolute;
   height: 3px;
   width: 100%;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 292px;
   background: rgba(241, 233, 225, 0.25);
@@ -805,7 +805,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Thin текст*/
+  /*Блок 5 Thin текст*/
 .tz1{
   position: absolute;
   margin-top: 147px;
@@ -818,7 +818,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Thin italic*/
+  /*Блок 5 Thin italic*/
 .z1i{
   position: absolute;
   margin-top: 269px;
@@ -831,7 +831,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Thin italic текст*/
+  /*Блок 5 Thin italic текст*/
 .tz1i{
   position: absolute;
   margin-top: 321px;
@@ -844,7 +844,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 SemiBold*/
+  /*Блок 5 SemiBold*/
 .z2{
   position: absolute;
   margin-top: 451px;
@@ -857,7 +857,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Semibold текст*/
+  /*Блок 5 Semibold текст*/
 .tz2{
   position: absolute;
   margin-top: 518px;
@@ -870,7 +870,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 SemiBold italic*/
+  /*Блок 5 SemiBold italic*/
 .z2i{
   position: absolute;
   margin-top: 638px;
@@ -883,7 +883,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Semibold italic текст*/
+  /*Блок 5 Semibold italic текст*/
 .tz2i{
   position: absolute;
   margin-top: 691px;
@@ -896,7 +896,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Light*/
+  /*Блок 5 Light*/
 .z3{
   position: absolute;
   margin-top: 80px;
@@ -909,7 +909,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Light текст*/
+  /*Блок 5 Light текст*/
 .tz3{
   position: absolute;
   margin-top: 147px;
@@ -922,7 +922,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Light italic*/
+  /*Блок 5 Light italic*/
 .z3i{
   position: absolute;
   margin-top: 269px;
@@ -935,7 +935,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Light italic текст*/
+  /*Блок 5 Light italic текст*/
 .tz3i{
   position: absolute;
   margin-top: 321px;
@@ -948,7 +948,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Bold*/
+  /*Блок 5 Bold*/
 .z4{
   position: absolute;
   margin-top: 451px;
@@ -961,7 +961,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Bold текст*/
+  /*Блок 5 Bold текст*/
 .tz4{
   position: absolute;
   margin-top: 518px;
@@ -974,7 +974,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Bold italic*/
+  /*Блок 5 Bold italic*/
 .z4i{
   position: absolute;
   margin-top: 638px;
@@ -987,7 +987,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Bold italic текст*/
+  /*Блок 5 Bold italic текст*/
 .tz4i{
   position: absolute;
   margin-top: 691px;
@@ -1000,7 +1000,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Regular*/
+  /*Блок 5 Regular*/
 .z5{
   position: absolute;
   margin-top: 80px;
@@ -1013,7 +1013,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Regular текст*/
+  /*Блок 5 Regular текст*/
 .tz5{
   position: absolute;
   margin-top: 147px;
@@ -1026,7 +1026,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Regular italic*/
+  /*Блок 5 Regular italic*/
 .z5i{
   position: absolute;
   margin-top: 269px;
@@ -1039,7 +1039,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Regular italic текст*/
+  /*Блок 5 Regular italic текст*/
 .tz5i{
   position: absolute;
   margin-top: 321px;
@@ -1052,7 +1052,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 ExtraBold*/
+  /*Блок 5 ExtraBold*/
 .z6{
   position: absolute;
   margin-top: 451px;
@@ -1065,7 +1065,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 ExtraBold текст*/
+  /*Блок 5 ExtraBold текст*/
 .tz6{
   position: absolute;
   margin-top: 518px;
@@ -1078,7 +1078,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 ExtraBold italic*/
+  /*Блок 5 ExtraBold italic*/
 .z6i{
   position: absolute;
   margin-top: 638px;
@@ -1091,7 +1091,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 ExtraBold italic текст*/
+  /*Блок 5 ExtraBold italic текст*/
 .tz6i{
   position: absolute;
   margin-top: 691px;
@@ -1104,7 +1104,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Medium*/
+  /*Блок 5 Medium*/
 .z7{
   position: absolute;
   margin-top: 80px;
@@ -1117,7 +1117,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Medium текст*/
+  /*Блок 5 Medium текст*/
 .tz7{
   position: absolute;
   margin-top: 147px;
@@ -1130,7 +1130,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Medium italic*/
+  /*Блок 5 Medium italic*/
 .z7i{
   position: absolute;
   margin-top: 269px;
@@ -1143,7 +1143,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Medium italic текст*/
+  /*Блок 5 Medium italic текст*/
 .tz7i{
   position: absolute;
   margin-top: 321px;
@@ -1156,7 +1156,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Black*/
+  /*Блок 5 Black*/
 .z8{
   position: absolute;
   margin-top: 451px;
@@ -1169,7 +1169,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Black текст*/
+  /*Блок 5 Black текст*/
 .tz8{
   position: absolute;
   margin-top: 518px;
@@ -1182,7 +1182,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Black italic*/
+  /*Блок 5 Black italic*/
 .z8i{
   position: absolute;
   margin-top: 638px;
@@ -1195,7 +1195,7 @@ z-index: 3;
   z-index: 5;
 }
 
-/*Блок 5 Black italic текст*/
+  /*Блок 5 Black italic текст*/
 .tz8i{
   position: absolute;
   margin-top: 691px;
@@ -1213,7 +1213,7 @@ z-index: 3;
   position: absolute;
   height: 840px;
   width: 1px;
-  left: 135px;
+  margin-left: 135px;
   border: none;
   margin-top: 0;
   background: rgba(241, 233, 225, 0.25);
@@ -1225,7 +1225,7 @@ z-index: 3;
   position: absolute;
   height: 840px;
   width: 1px;
-  left: 405px;
+  margin-left: 405px;
   border: none;
   margin-top: 0;
   background: rgba(241, 233, 225, 0.25);
@@ -1237,7 +1237,7 @@ z-index: 3;
   position: absolute;
   height: 840px;
   width: 1px;
-  left: 435px;
+  margin-left: 435px;
   border: none;
   margin-top: 0;
   background: rgba(241, 233, 225, 0.25);
@@ -1249,7 +1249,7 @@ z-index: 3;
   position: absolute;
   height: 840px;
   width: 1px;
-  left: 705px;
+  margin-left: 705px;
   border: none;
   margin-top: 0;
   background: rgba(241, 233, 225, 0.25);
@@ -1261,7 +1261,7 @@ z-index: 3;
   position: absolute;
   height: 840px;
   width: 1px;
-  left: 735px;
+  margin-left: 735px;
   border: none;
   margin-top: 0;
   background: rgba(241, 233, 225, 0.25);
@@ -1273,7 +1273,7 @@ z-index: 3;
   position: absolute;
   height: 840px;
   width: 1px;
-  left: 1005px;
+  margin-left: 1005px;
   border: none;
   margin-top: 0;
   background: rgba(241, 233, 225, 0.25);
@@ -1285,7 +1285,7 @@ z-index: 3;
   position: absolute;
   height: 840px;
   width: 1px;
-  left: 1035px;
+  margin-left: 1035px;
   border: none;
   margin-top: 0;
   background: rgba(241, 233, 225, 0.25);
@@ -1297,7 +1297,7 @@ z-index: 3;
   position: absolute;
   height: 840px;
   width: 1px;
-  left: 1305px;
+  margin-left: 1305px;
   border: none;
   margin-top: 0;
   background: rgba(241, 233, 225, 0.25);
@@ -1309,7 +1309,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 1440px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 122px;
   background: rgba(241, 233, 225, 0.25);
@@ -1321,7 +1321,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 1440px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 147px;
   background: rgba(241, 233, 225, 0.25);
@@ -1333,7 +1333,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 1440px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 258px;
   background: rgba(241, 233, 225, 0.25);
@@ -1345,7 +1345,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 1440px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 301px;
   background: rgba(241, 233, 225, 0.25);
@@ -1357,7 +1357,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 1440px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 321px;
   background: rgba(241, 233, 225, 0.25);
@@ -1369,7 +1369,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 1440px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 391px;
   background: rgba(241, 233, 225, 0.25);
@@ -1381,7 +1381,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 1440px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 493px;
   background: rgba(241, 233, 225, 0.25);
@@ -1393,7 +1393,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 1440px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 518px;
   background: rgba(241, 233, 225, 0.25);
@@ -1405,7 +1405,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 1440px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 628px;
   background: rgba(241, 233, 225, 0.25);
@@ -1417,7 +1417,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 1440px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 670px;
   background: rgba(241, 233, 225, 0.25);
@@ -1429,7 +1429,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 1440px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 690px;
   background: rgba(241, 233, 225, 0.25);
@@ -1441,23 +1441,23 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 1440px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 760px;
   background: rgba(241, 233, 225, 0.25);
   z-index: 3;
 }
 
-/*Граничная линия 5-6*/
+  /*Граничная линия 5-6*/
 .bl6{
-position: absolute;
-height: 3px;
-width: 100%;
-left: 0px;
-border: none;
-margin-top: 840px;
-background: rgba(241, 233, 225, 0.25);
-z-index: 3;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  margin-left: 0px;
+  border: none;
+  margin-top: 840px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: 3;
 }
 
   /*Блок 6*/
@@ -1498,7 +1498,7 @@ z-index: 3;
   position: absolute;
   width: 1170px;
   height: 548px;
-  left: 136px;
+  margin-left: 136px;
   margin-top: 0px;
   z-index: 4;
 }
@@ -1508,7 +1508,7 @@ z-index: 3;
   position: absolute;
   height: 3px;
   width: 100%;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 546.5px;
   background: rgba(241, 233, 225, 0.25);
@@ -1552,7 +1552,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 100%;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 80px;
   background: rgba(241, 233, 225, 0.25);
@@ -1564,7 +1564,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 100%;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 545px;
   background: rgba(241, 233, 225, 0.25);
@@ -1602,7 +1602,7 @@ z-index: 3;
   position: absolute;
   height: 3px;
   width: 100%;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 625px;
   background: rgba(241, 233, 225, 0.25);
@@ -1641,16 +1641,16 @@ z-index: 3;
   z-index: 3;
 }
 
-/*Блок 8 Линия вертикальная 3*/
+  /*Блок 8 Линия вертикальная 3*/
 .b8lv3{
-position: absolute;
-height: 732px;
-width: 1px;
-margin-left: 1305px;
-border: none;
-margin-top: 0px;
-background: rgba(241, 233, 225, 0.25);
-z-index: 3;
+  position: absolute;
+  height: 732px;
+  width: 1px;
+  margin-left: 1305px;
+  border: none;
+  margin-top: 0px;
+  background: rgba(241, 233, 225, 0.25);
+  z-index: 3;
 }
 
   /*Блок 8 Линия горизонтальная*/
@@ -1658,7 +1658,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 100%;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 80px;
   background: rgba(241, 233, 225, 0.25);
@@ -1670,7 +1670,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 687px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 223px;
   background: rgba(241, 233, 225, 0.25);
@@ -1682,7 +1682,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 687px;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 274px;
   background: rgba(241, 233, 225, 0.25);
@@ -1694,7 +1694,7 @@ z-index: 3;
   position: absolute;
   height: 1px;
   width: 100%;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 652px;
   background: rgba(241, 233, 225, 0.25);
@@ -1715,7 +1715,7 @@ z-index: 3;
   position: absolute;
   width: 489px;
   height: 130px;
-  left: 145px;
+  margin-left: 145px;
   margin-top: 85px;
   font-family: "HK Grotesk";
   font-style: normal;
@@ -1754,7 +1754,7 @@ z-index: 3;
   position: absolute;
   height: 3px;
   width: 100%;
-  left: 0px;
+  margin-left: 0px;
   border: none;
   margin-top: 732px;
   background: rgba(241, 233, 225, 0.25);
@@ -1772,7 +1772,7 @@ z-index: 3;
 
 .logo{
   position: absolute;
-  left: 133px;
+  margin-left: 133px;
   margin-top: 36px;
   padding: 0 0 0 0;
   font-family: "HK Grotesk";
@@ -1872,8 +1872,8 @@ z-index: 3;
   position: absolute;
   width: 1170px;
   height: 2px;
-  left: 135px;
-  top: 77px;
+  margin-left: 135px;
+  margin-top: 77px;
   background: #D62A1E;
   border: none;
   z-index: 5;
