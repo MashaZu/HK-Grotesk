@@ -151,7 +151,7 @@ z-index: 3;
   width: 935px;
   left: 0px;
   border: none;
-  margin-top: 405px;
+  margin-top: 407px;
   background: rgba(241, 233, 225, 0.25);
   z-index: 3;
 }
@@ -211,7 +211,7 @@ z-index: 3;
   width: 505px;
   left: 0px;
   border: none;
-  margin-top: 405px;
+  margin-top: 407px;
   background: rgba(214, 42, 30, 0.35);
   z-index: 3;
 }
@@ -268,12 +268,12 @@ z-index: 3;
   /* HK Grotesk */
 .h1{
   position: absolute;
-  left: 126px;
-  top: 276px;
+  left: 128px;
+  top: 365px;
   font-family: "HK Grotesk";
   font-style: normal;
   font-weight: 900;
-  font-size: 132.2px;
+  font-size: 131.5px;
   line-height: 178px;
   color: #FCF7F2;
   z-index: 5;
@@ -283,7 +283,7 @@ z-index: 3;
 .h2{
   position: absolute;
   left: 131px;
-  top: 487px;
+  top: 534px;
   font-family: "HK Grotesk";
   font-style: normal;
   font-weight: 500;
