@@ -1,28 +1,28 @@
 @font-face {
 font-family: "HK Grotesk";
-src: url("../fonts/HKGrotesk-Bold.woff") format("woff"),
-url("../fonts/HKGrotesk-Bold.ttf") format("ttf");
+src: url("/fonts/HKGrotesk-Bold.woff") format("woff"),
+url("/fonts/HKGrotesk-Bold.ttf") format("ttf");
 font-style: normal;
 font-weight: bold;
 }
 @font-face {
 font-family: "HK Grotesk";
-src: url("../fonts/HKGrotesk-Regular.woff") format("woff"),
-url("../fonts/HKGrotesk-Regular.ttf") format("ttf");
+src: url("/fonts/HKGrotesk-Regular.woff") format("woff"),
+url("/fonts/HKGrotesk-Regular.ttf") format("ttf");
 font-style: normal;
 font-weight: normal;
 }
 @font-face {
 font-family: "HK Grotesk";
-src: url("../fonts/HKGrotesk-Italic.woff") format("woff"),
-url("../fonts/HKGrotesk-Italic.ttf") format("ttf");
+src: url("/fonts/HKGrotesk-Italic.woff") format("woff"),
+url("/fonts/HKGrotesk-Italic.ttf") format("ttf");
 font-style: italic;
 font-weight: normal;
 }
 @font-face {
 font-family: "HK Grotesk";
-src: url("../fonts/HKGrotesk-BoldItalic.woff") format("woff"),
-url("../fonts/HKGrotesk-BoldItalic.ttf") format("ttf");
+src: url("/fonts/HKGrotesk-BoldItalic.woff") format("woff"),
+url("/fonts/HKGrotesk-BoldItalic.ttf") format("ttf");
 font-style: italic;
 font-weight: bold;
 }
@@ -397,6 +397,15 @@ z-index: -3;
 }
 
   /*Блок 2 Текст*/
+.b2p1{
+  position: absolute;
+  width: 370px;
+  height: 234px;
+  margin-left: 145px;
+  margin-top: 85px;
+  z-index: -2;
+}
+
 .b2t1{
   position: absolute;
   width: 370px;
@@ -663,6 +672,15 @@ z-index: -3;
 }
 
   /*Блок 4 Текст*/
+.b4p1{
+  position: absolute;
+  width: 441px;
+  height: 104px;
+  margin-left: 50px;
+  margin-top: 45px;
+  z-index: -2;
+}
+
 .b4t1{
   position: absolute;
   width: 441px;
@@ -726,7 +744,7 @@ z-index: -3;
   /*background: black;*/
 }
 
-/*Блок 5 Колонка 4*/
+  /*Блок 5 Колонка 4*/
 .b5clmn4{
   position: absolute;
   width: 270px;
@@ -735,7 +753,44 @@ z-index: -3;
   /*background: orange;*/
 }
 
-/*Блок 5 Thin*/
+  /*Блок 5 Тексты*/
+.t1{
+  position: absolute;
+  width: 263px;
+  height: 97px;
+  margin-left: 3px;
+  margin-top: 154px;
+  z-index: -2;
+}
+
+.t2{
+  position: absolute;
+  width: 268px;
+  height: 57px;
+  margin-left: 2px;
+  margin-top: 328px;
+  z-index: -2;
+}
+
+.t3{
+  position: absolute;
+  width: 263px;
+  height: 97px;
+  margin-left: 3px;
+  margin-top: 525px;
+  z-index: -2;
+}
+
+.t4{
+  position: absolute;
+  width: 268px;
+  height: 57px;
+  margin-left: 0px;
+  margin-top: 698px;
+  z-index: -2;
+}
+
+  /*Блок 5 Thin*/
 .z1{
   position: absolute;
   margin-top: 80px;
@@ -1645,6 +1700,15 @@ z-index: -3;
 }
 
   /*Блок 8 Текст*/
+.b8p1{
+  position: absolute;
+  width: 489px;
+  height: 130px;
+  margin-left: 143px;
+  margin-top: 85px;
+  z-index: -2;
+}
+
 .b8t1{
   position: absolute;
   width: 489px;
