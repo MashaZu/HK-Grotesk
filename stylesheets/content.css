@@ -268,11 +268,11 @@ z-index: 3;
 .h1{
   position: absolute;
   left: 126px;
-  top: 273px;
+  top: 276px;
   font-family: "HK Grotesk";
   font-style: normal;
   font-weight: 900;
-  font-size: 135px;
+  font-size: 132.2px;
   line-height: 178px;
   color: #FCF7F2;
   z-index: 5;
@@ -282,11 +282,11 @@ z-index: 3;
 .h2{
   position: absolute;
   left: 131px;
-  top: 486px;
+  top: 487px;
   font-family: "HK Grotesk";
   font-style: normal;
   font-weight: 500;
-  font-size: 57.2px;
+  font-size: 56.8px;
   line-height: 74px;
   color: #FCF7F2;
   z-index: 5;
